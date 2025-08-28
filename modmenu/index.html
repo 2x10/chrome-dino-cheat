@@ -1,0 +1,42 @@
+document.write(`
+<html>
+
+<head>
+    <title>Dinosaur Game - With Cheats</title>
+    <script src="modmenu/jquery/jquery.js"></script>
+    <script src="modmenu/jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="modmenu/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="modmenu/design.css">
+    <link rel="icon" href="modmenu/assets/icon.png">
+</head>
+
+<script type="text/javascript" src="modmenu/theme.js"></script>
+
+<div id="cheatui">
+    <center>
+        <h1 class="bigArial">ultra super duper cheat</h1>
+        <button style="position: relative; bottom: 5px" class="cheatBtn" id="godButton" onclick="setColor('godButton'); god();">God mode</button>
+        <button style="position: relative; bottom: 5px" class="cheatBtn" id="chaosBtn" onclick="setColorX('chaosBtn'); chaos();">Chaos</button>
+        <button style="position: relative; bottom: 5px" class="cheatBtn" id="reverseBtn" onclick="setColorX('reverseBtn'); reverse();">Reverse</button>
+        <br>
+    </center>
+
+    <label style="position: relative; top: 10px;" class="arialFont" for="scoreInt">Score: </label>
+    <input style="position: relative; left: 59px; top: 10px;" class="arialFont" id="scoreInt" type="number"><br>
+
+    <label style="position: relative; top: 10px;" class="arialFont" for="speedVel">Speed: </label>
+    <input style="position: relative; left: 55px; top: 10px;" class="arialFont" id="speedVel" type="number"><br>
+
+    <label style="position: relative; top: 10px;" class="arialFont" for="jumpVel">Jump Height: </label>
+    <input style="position: relative; left: 11px; top: 10px;" class="arialFont" id="jumpVel" type="number"><br>
+
+    <label style="position: relative; top: 10px;" class="arialFont" for="gravity">Gravity: </label>
+    <input style="position: relative; left: 50px; top: 10px;" class="arialFont" id="gravity" type="number"><br>
+
+    <button style="position: relative; top: 20px; padding: 8px 127px;" class="cheatBtn" id="resetBtn" onclick="location.reload();">Reset</button>
+</div>
+
+<script src="modmenu/index.js"></script>
+
+</html>
+`);

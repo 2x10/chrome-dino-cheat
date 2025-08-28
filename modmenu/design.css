@@ -1,0 +1,33 @@
+#cheatui { 
+    width: 150px; 
+    height: 250px; 
+    padding: 0.5em; 
+    width: 0px;
+
+    border: 6px solid black;
+    background-color: rgb(168, 168, 168);
+
+    opacity: 0;
+    cursor: pointer;
+}
+
+.cheatBtn {
+    background-color: #000000;
+    border: none;
+    padding: 8px 10px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bigArial {
+    font-family: Arial;
+    color: #000000;
+    font-size: 26px;
+}
+
+.arialFont {
+    font-family: Arial;
+}
