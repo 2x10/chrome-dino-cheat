@@ -115,7 +115,7 @@
         INVERT_FADE_DURATION: 12000,
         INVERT_DISTANCE: 700,
         MAX_BLINK_COUNT: 3,
-        MAX_CLOUDS: 6,
+        MAX_CLOUDS: 12,
         MAX_OBSTACLE_LENGTH: 3,
         MAX_OBSTACLE_DUPLICATION: 2,
         MAX_SPEED: 13,
@@ -133,7 +133,7 @@
      */
     Runner.defaultDimensions = {
         WIDTH: DEFAULT_WIDTH,
-        HEIGHT: 150
+        HEIGHT: 250
     };
 
 
@@ -1433,7 +1433,7 @@
             type: 'CACTUS_SMALL',
             width: 17,
             height: 35,
-            yPos: 105,
+            yPos: 200,
             multipleSpeed: 4,
             minGap: 120,
             minSpeed: 0,
@@ -1447,7 +1447,7 @@
             type: 'CACTUS_LARGE',
             width: 25,
             height: 50,
-            yPos: 90,
+            yPos: 190,
             multipleSpeed: 7,
             minGap: 120,
             minSpeed: 0,
@@ -1461,7 +1461,7 @@
             type: 'PTERODACTYL',
             width: 46,
             height: 40,
-            yPos: [100, 75, 50], // Variable height.
+            yPos: [100, 180, 140], // Variable height.
             yPosMobile: [100, 50], // Variable height mobile.
             multipleSpeed: 999,
             minSpeed: 8.5,
@@ -2390,7 +2390,7 @@
     HorizonLine.dimensions = {
         WIDTH: 600,
         HEIGHT: 12,
-        YPOS: 127
+        YPOS: 227
     };
 
 
@@ -2528,7 +2528,7 @@
         BUMPY_THRESHOLD: .3,
         CLOUD_FREQUENCY: .5,
         HORIZON_HEIGHT: 16,
-        MAX_CLOUDS: 6
+        MAX_CLOUDS: 12
     };
 
 

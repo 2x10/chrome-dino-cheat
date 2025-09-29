@@ -91,14 +91,14 @@ function setColor(btn) {
         property.style.backgroundColor = "#000000"
         count = 1;        
     } else {
-        property.style.backgroundColor = "#2edf4b"
+        property.style.backgroundColor = "#a12edfff"
         count = 0;
     }
 }
 
 function setColorX(btn) {
     var property = document.getElementById(btn);
-    property.style.backgroundColor = "#2edf4b"
+    property.style.backgroundColor = "#a12edfff"
 }
 
 // Inputs
